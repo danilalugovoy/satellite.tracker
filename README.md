@@ -1,7 +1,7 @@
 # Satellite tracker in Python
 ![](https://img.shields.io/badge/Python-3.8.3-orange)
 
-## Desription
+## Description
 Код для получения информации о спутнике, использующий n2yo.com.
 Сейчас в базе данных мало спутников, вы можете добавить их самостоятельно.
 
