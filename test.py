@@ -1,6 +1,6 @@
 from satellite import Tracker
 
-track = Tracker('Самара', 'NOвAA 1')
+track = Tracker('Самара', 'NOAA 1')
 print(track.getSatCoord())
 print(track.getSatAltitude())
 print(track.getSatAzimuth())
