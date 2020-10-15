@@ -14,16 +14,16 @@ from satellite import Tracker
 track = Tracker('Москва', 'NOAA 1')
 
 # Получение информации
-print(track.getSatCoord())
-print(track.getSatAltitude())
-print(track.getSatAzimuth())
-print(track.getSatInterCode())
-print(track.getSatPerigee())
-print(track.getSatApogee())
-print(track.getSatIncl())
-print(track.getSatPeriod())
-print(track.getSatSource())
-print(track.getSatLaunchSite())
-print(track.getSatVisual())
-print(track.getSatRadio())
+print(track.getSatCoord()) # Координаты (массив с lat (0) lon (1))
+print(track.getSatAltitude()) # Высота спутника
+print(track.getSatAzimuth()) # Азимут спутника
+print(track.getSatInterCode()) # Международный код спутника
+print(track.getSatPerigee()) # Перигей
+print(track.getSatApogee()) # Апогей
+print(track.getSatIncl()) # Наклон в градусах
+print(track.getSatPeriod()) # Период оборота вокруг Земли в минутах
+print(track.getSatSource()) # Страна, запустившая спутник
+print(track.getSatLaunchSite()) # Космодром, с которого был запущен спутник
+print(track.getSatVisual()) # Когда спутник можно будет увидеть над городом, который вы указали при создании объекта. Массив со временем (начало прохода (0) и конец прохода (1)). Если выдало None - информации нет.
+print(track.getSatRadio()) # Когда спутник будет испускать радио-сигнал городом, который вы указали при создании объекта. Массив со временем (начало прохода (0) и конец прохода (1). Если выдало None - информации нет.
 ```
